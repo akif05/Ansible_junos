@@ -1,0 +1,12 @@
+---
+- name: "Gather Facts"
+  hosts: my_junos
+  connection: local
+  roles:
+    - Juniper.junos
+
+  tasks:
+    - name: Gather facts for IOS Devices
+      junos_config:
+        backup: Yes
+
