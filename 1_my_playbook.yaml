@@ -1,6 +1,6 @@
 ---
 - name: "Gather Facts"
-  hosts: vsrx1
+  hosts: my_junos
   connection: local
   roles:
     - Juniper.junos

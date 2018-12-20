@@ -1,2 +1,2 @@
 [my_junos]
-vsrx1
+vsrx[1:4]
