@@ -1,0 +1,8 @@
+
+---
+ansible_host: 192.168.1.249
+ansible_port: 22222 
+ansible_user: akif
+ansible_ssh_pass: Akif999
+ansible_connection: network_cli 
+ansible_network_os: juniper

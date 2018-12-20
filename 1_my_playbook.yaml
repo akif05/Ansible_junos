@@ -1,0 +1,11 @@
+---
+- name: "Gather Facts"
+  hosts: vsrx1
+  connection: local
+  roles:
+    - Juniper.junos
+
+  tasks:
+    - name: Gather facts for IOS Devices
+      junos_facts:
+      
